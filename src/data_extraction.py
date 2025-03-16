@@ -158,9 +158,6 @@ def find_bolus_meal_within_15min(df_events, save_to_csv=False, output_dir="data/
     return df_bolus_meal_within_15min, df_excluded_bolus_meal
 
 
-# import pandas as pd
-# import os
-
 def find_nearest_bolus(df_events, patient_id, output_dir, save_to_csv= True):
     """
     For each meal event, find the closest bolus event (before or after) and indicate direction.
