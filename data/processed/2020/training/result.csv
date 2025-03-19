@@ -1,7 +1,7 @@
-file,avg_time_gap,count_below_15,avg_time_gap_15min,before_count,after_count
-540_fluctuations.csv,36.49,20,6.96,13,60
-544_fluctuations.csv,103.85,119,2.21,75,84
-552_fluctuations.csv,40.25,26,5.62,20,58
-567_fluctuations.csv,32.37,8,9.65,7,25
-584_fluctuations.csv,52.09,24,7.86,43,52
-596_fluctuations.csv,258.52,107,5.86,140,125
+file,avg_time_gap,count_below_15,avg_time_gap_15min,before_count,after_count,pre_fluctuation_category,post_fluctuation_category,pre_fluctuation_direction_UP,pre_fluctuation_direction_DOWN,post_fluctuation_direction_UP,post_fluctuation_direction_DOWN
+540_fluctuations.csv,36.49,20,6.96,0.18,0.82,"{'REGULAR': 0.66, 'STEEP': 0.23, 'No data': 0.11}","{'REGULAR': 0.82, 'STEEP': 0.08, 'No data': 0.08, 'GRADUAL': 0.01}",0.37,0.52,0.68,0.23
+544_fluctuations.csv,103.85,119,2.21,0.47,0.53,"{'REGULAR': 0.48, 'STEEP': 0.29, 'No data': 0.18, 'GRADUAL': 0.05}","{'REGULAR': 0.81, 'No data': 0.11, 'STEEP': 0.07, 'GRADUAL': 0.01}",0.27,0.53,0.71,0.17
+552_fluctuations.csv,40.25,26,5.62,0.26,0.74,"{'REGULAR': 0.53, 'STEEP': 0.33, 'No data': 0.12, 'GRADUAL': 0.03}","{'REGULAR': 0.83, 'STEEP': 0.08, 'No data': 0.08, 'GRADUAL': 0.01}",0.36,0.51,0.64,0.24
+567_fluctuations.csv,32.37,8,9.65,0.22,0.78,"{'REGULAR': 0.62, 'No data': 0.19, 'STEEP': 0.16, 'GRADUAL': 0.03}","{'REGULAR': 0.91, 'GRADUAL': 0.06, 'STEEP': 0.03}",0.44,0.38,0.75,0.25
+584_fluctuations.csv,52.09,24,7.86,0.45,0.55,"{'REGULAR': 0.47, 'STEEP': 0.34, 'GRADUAL': 0.12, 'No data': 0.07}","{'REGULAR': 0.82, 'No data': 0.09, 'STEEP': 0.06, 'GRADUAL': 0.02}",0.32,0.57,0.52,0.39
+596_fluctuations.csv,258.52,107,5.86,0.53,0.47,"{'REGULAR': 0.43, 'No data': 0.25, 'STEEP': 0.22, 'GRADUAL': 0.11}","{'REGULAR': 0.66, 'No data': 0.24, 'STEEP': 0.09, 'GRADUAL': 0.01}",0.31,0.43,0.57,0.15

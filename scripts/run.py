@@ -124,7 +124,7 @@ def main():
 
 
 
-    patient_id = "596"
+    patient_id = "544"
     training_data_dir = os.path.join(root_dir, "data/raw/OhioT1DM/2020/train/json/")
     testing_data_dir = os.path.join(root_dir, "data/raw/OhioT1DM/2020/test/json/")
     training_output_dir = os.path.join(root_dir, "data/processed/2020/training")

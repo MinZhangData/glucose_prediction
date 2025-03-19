@@ -46,6 +46,7 @@ def extract_event_data(event_list, event_name, value_field, use_ts_begin=False):
     return pd.DataFrame({'timestamp': pd.to_datetime(timestamps, format='%d-%m-%Y %H:%M:%S'), 'type': event_name, 'value': values})
 
 
+
 def load_patient_data(file_path):
     """
     Load patient data from the JSON file and extract the patient ID from the filename.

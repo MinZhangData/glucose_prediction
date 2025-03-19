@@ -56,9 +56,24 @@ def predict_and_evaluate(test_data_file: str, model_file: str, target: str, pati
     features = model_data["features"]
 
     categorical_cols = ["direction", "pre_fluctuation_category", "pre_fluctuation_direction"]
+    # for col in categorical_cols:
+    #     df_test[col] = label_encoders[col].transform(df_test[col])
+    ##-------------
     for col in categorical_cols:
-        df_test[col] = label_encoders[col].transform(df_test[col])
+        if col in label_encoders:
+            le = label_encoders[col]
+        
+        # Handle categories in test_data that were not present in training data
+            df_test[col] = df_test[col].apply(lambda x: x if x in le.classes_ else "UNKNOWN")
 
+        # Extend LabelEncoder to include "UNKNOWN" if not already present
+            le_classes = np.append(le.classes_, "UNKNOWN") if "UNKNOWN" not in le.classes_ else le.classes_
+            le.classes_ = le_classes
+
+        # Safely transform categorical values into numerical labels
+            df_test[col] = le.transform(df_test[col])
+
+    ##-------------
     df_test["is_time_gap_large"] = (df_test["time_gap_minutes"] > 30).astype(int)
     X_test = df_test[features]
 
