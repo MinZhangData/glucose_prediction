@@ -1,22 +1,15 @@
-patient_id,event_type,event_time,event_value,nearest_bolus_time,nearest_bolus_value,time_gap_minutes,direction,pre_fluctuation_category,post_fluctuation_category,pre_fluctuation_direction,post_fluctuation_direction
-552,meal,2025-05-26 07:15:00,60,2025-05-26 07:24:41,7.8,9.683333333333334,after,REGULAR,REGULAR,DOWN,UP
-552,meal,2025-05-26 18:18:00,10,2025-05-26 20:32:18,1.5,134.3,after,REGULAR,REGULAR,DOWN,DOWN
-552,meal,2025-05-27 08:30:00,80,2025-05-27 09:15:38,11.1,45.63333333333333,after,REGULAR,REGULAR,UP,UP
-552,meal,2025-05-27 20:35:00,25,2025-05-27 20:56:54,5.2,21.9,after,REGULAR,REGULAR,UP,UP
-552,meal,2025-05-29 02:10:00,13,2025-05-28 23:07:33,0.5,182.45,before,REGULAR,REGULAR,DOWN,UP
-552,meal,2025-05-29 08:20:00,90,2025-05-29 08:17:48,12.6,2.2,before,REGULAR,REGULAR,UP,UP
-552,meal,2025-05-29 11:15:00,26,2025-05-29 12:27:20,0.6,72.33333333333333,after,REGULAR,REGULAR,DOWN,UP
-552,meal,2025-05-29 13:20:00,95,2025-05-29 13:16:29,12.5,3.5166666666666666,before,No data,No data,No data,No data
-552,meal,2025-05-29 18:45:00,60,2025-05-29 20:07:42,7.2,82.7,after,No data,No data,No data,No data
-552,meal,2025-06-02 06:53:00,18,2025-06-02 06:34:28,16.0,18.533333333333335,before,No data,No data,No data,No data
-552,meal,2025-06-02 08:01:00,125,2025-06-02 06:34:28,16.0,86.53333333333333,before,No data,No data,No data,No data
-552,meal,2025-06-02 17:44:00,64,2025-06-02 17:40:37,3.9,3.3833333333333333,before,No data,No data,No data,No data
-552,meal,2025-06-03 09:30:00,30,2025-06-03 09:31:57,15.1,1.95,after,No data,GRADUAL,No data,DOWN
-552,meal,2025-06-03 10:30:00,125,2025-06-03 09:31:57,15.1,58.05,before,GRADUAL,REGULAR,DOWN,DOWN
-552,meal,2025-06-03 19:40:00,65,2025-06-03 19:53:27,8.6,13.45,after,REGULAR,REGULAR,DOWN,UP
-552,meal,2025-06-03 20:28:00,25,2025-06-03 19:53:27,8.6,34.55,before,REGULAR,REGULAR,UP,DOWN
-552,meal,2025-06-04 10:29:00,30,2025-06-04 10:21:28,2.5,7.533333333333333,before,STEEP,STEEP,UP,UP
-552,meal,2025-06-04 17:50:00,45,2025-06-04 17:54:10,4.0,4.166666666666667,after,STEEP,REGULAR,DOWN,DOWN
-552,meal,2025-06-05 08:00:00,45,2025-06-05 08:02:09,0.8,2.15,after,REGULAR,REGULAR,UP,DOWN
-552,meal,2025-06-05 10:15:00,0,2025-06-05 08:32:24,6.3,102.6,before,REGULAR,REGULAR,DOWN,UP
-552,meal,2025-06-05 13:00:00,35,2025-06-05 13:17:48,4.0,17.8,after,REGULAR,REGULAR,UP,UP
+patient_id,meal_time,meal_carbs,meal_type,bolus_time_1,bolus_dose_1,bolus_time_gap_minutes_1,bolus_direction_1,bolus_type_1,bolus_time_2,bolus_dose_2,bolus_time_gap_minutes_2,bolus_direction_2,bolus_type_2,nearest_exercise_time,nearest_exercise_intensity,nearest_exercise_duration,exercise_time_gap_minutes,exercise_direction,pre_fluctuation_category,post_fluctuation_category,pre_fluctuation_direction,post_fluctuation_direction,glucose_30min_before_event,glucose_at_event_time,glucose_60min_after_event,glucose_60min_after_double_bolus
+552,2025-05-26 07:15:00,60,Breakfast,2025-05-26 07:24:41,7.8,9.68,after,normal,,,,,,,,,,,REGULAR,REGULAR,DOWN,DOWN,103,99,174,
+552,2025-05-26 18:18:00,10,Dinner,,,,,,,,,,,,,,,,REGULAR,REGULAR,DOWN,DOWN,99,96,99,
+552,2025-05-27 08:30:00,80,Breakfast,,,,,,,,,,,,,,,,REGULAR,REGULAR,UP,DOWN,107,142,168,
+552,2025-05-27 20:35:00,25,Dinner,2025-05-27 20:56:54,5.2,21.9,after,normal,,,,,,,,,,,REGULAR,REGULAR,UP,DOWN,142,154,228,
+552,2025-05-29 02:10:00,13,HypoCorrection,,,,,,,,,,,,,,,,REGULAR,REGULAR,DOWN,DOWN,67,62,120,
+552,2025-05-29 08:20:00,90,Breakfast,2025-05-29 08:17:48,12.6,-2.2,before,normal,,,,,,,,,,,REGULAR,REGULAR,UP,DOWN,91,109,167,
+552,2025-05-29 11:15:00,26,HypoCorrection,,,,,,,,,,,,,,,,REGULAR,REGULAR,DOWN,DOWN,77,59,135,
+552,2025-06-03 19:40:00,65,Snack,2025-06-03 19:53:27,8.6,13.45,after,normal,,,,,,,,,,,REGULAR,REGULAR,UP,DOWN,113,116,165,
+552,2025-06-03 20:28:00,25,Dinner,2025-06-03 19:53:27,8.6,-34.55,before,normal,,,,,,,,,,,REGULAR,REGULAR,UP,UP,145,183,108,
+552,2025-06-04 10:29:00,30,Breakfast,2025-06-04 10:21:28,2.5,-7.53,before,normal,2025-06-04 10:54:18,3.9,25.3,after,normal,,,,,,STEEP,STEEP,UP,UP,122,160,152,103.0
+552,2025-06-04 17:50:00,45,Dinner,2025-06-04 17:54:10,4.0,4.17,after,normal,2025-06-04 18:22:03,8.1,32.05,after,normal,,,,,,STEEP,REGULAR,DOWN,UP,263,257,232,155.0
+552,2025-06-05 08:00:00,45,Breakfast,2025-06-05 08:02:09,0.8,2.15,after,normal,2025-06-05 08:32:24,6.3,32.4,after,normal,,,,,,REGULAR,REGULAR,UP,UP,160,163,157,127.0
+552,2025-06-05 10:15:00,0,HypoCorrection,,,,,,,,,,,,,,,,REGULAR,REGULAR,DOWN,DOWN,116,68,90,
+552,2025-06-05 13:00:00,35,Snack,2025-06-05 13:17:48,4.0,17.8,after,normal,,,,,,,,,,,REGULAR,REGULAR,UP,DOWN,94,103,164,

@@ -1,0 +1,33 @@
+patient_id,meal_time,meal_carbs,meal_type,bolus_time_1,bolus_dose_1,bolus_time_gap_minutes_1,bolus_direction_1,bolus_type_1,bolus_time_2,bolus_dose_2,bolus_time_gap_minutes_2,bolus_direction_2,bolus_type_2,nearest_exercise_time,nearest_exercise_intensity,nearest_exercise_duration,exercise_time_gap_minutes,exercise_direction,pre_fluctuation_category,post_fluctuation_category,pre_fluctuation_direction,post_fluctuation_direction,glucose_30min_before_event,glucose_at_event_time,glucose_60min_after_event
+567,2026-12-28 12:40:00,80,Lunch,,,,,,,,,,,,,,,,No data,REGULAR,No data,DOWN,75,75,133
+567,2026-12-30 19:35:00,80,Dinner,,,,,,,,,,,,,,,,REGULAR,REGULAR,DOWN,DOWN,149,102,109
+567,2026-12-31 08:11:00,86,Breakfast,,,,,,,,,,,,,,,,REGULAR,REGULAR,UP,DOWN,99,125,168
+567,2026-12-31 10:43:00,60,Snack,2026-12-31 10:57:36,10.5,14.6,after,normal,,,,,,,,,,,GRADUAL,REGULAR,DOWN,UP,235,231,155
+567,2026-12-31 12:26:00,80,Lunch,,,,,,,,,,,,,,,,REGULAR,REGULAR,DOWN,DOWN,148,116,138
+567,2027-01-01 08:13:00,86,Breakfast,,,,,,,,,,,,,,,,REGULAR,REGULAR,DOWN,DOWN,151,148,199
+567,2027-01-01 12:15:00,51,Lunch,,,,,,,,,,,,,,,,REGULAR,REGULAR,UP,DOWN,193,210,258
+567,2027-01-03 08:35:00,88,Breakfast,2027-01-03 08:39:54,2.2,4.9,after,normal,,,,,,,,,,,No data,REGULAR,No data,DOWN,144,144,193
+567,2027-01-07 08:08:00,86,Breakfast,,,,,,,,,,,,,,,,REGULAR,STEEP,UP,DOWN,103,114,128
+567,2027-01-07 11:09:00,95,Lunch,2027-01-07 10:57:23,4.3,-11.62,before,normal,,,,,,,,,,,No data,REGULAR,No data,UP,241,195,166
+567,2027-01-08 08:36:00,86,Breakfast,,,,,,,,,,,,,,,,STEEP,REGULAR,UP,DOWN,123,161,224
+567,2027-01-08 12:45:00,65,Lunch,,,,,,,,,,,,,,,,REGULAR,REGULAR,DOWN,DOWN,126,107,133
+567,2027-01-08 19:25:00,60,Dinner,2027-01-08 19:17:23,10.0,-7.62,before,normal,,,,,,,,,,,STEEP,REGULAR,UP,UP,122,143,129
+567,2027-01-10 08:30:00,65,Breakfast,,,,,,,,,,,,,,,,STEEP,REGULAR,DOWN,DOWN,72,71,182
+567,2027-01-10 13:00:00,30,Lunch,,,,,,,,,,,,,,,,STEEP,REGULAR,UP,DOWN,82,95,146
+567,2027-01-11 09:00:00,78,Breakfast,,,,,,,,,,,,,,,,REGULAR,REGULAR,DOWN,DOWN,153,143,216
+567,2027-01-11 20:00:00,110,Dinner,,,,,,,,,,,,,,,,REGULAR,REGULAR,DOWN,UP,108,104,101
+567,2027-01-12 09:02:00,55,Breakfast,,,,,,,,,,,,,,,,STEEP,REGULAR,DOWN,UP,171,153,150
+567,2027-01-12 19:41:00,64,Dinner,,,,,,,,,,,,,,,,REGULAR,REGULAR,STABLE,DOWN,98,98,223
+567,2027-01-14 08:30:00,45,Breakfast,,,,,,,,,,,,,,,,REGULAR,REGULAR,UP,UP,188,202,165
+567,2027-01-14 11:32:00,87,Lunch,,,,,,,,,,,,,,,,No data,REGULAR,No data,UP,72,72,64
+567,2027-01-18 08:27:00,40,Breakfast,2027-01-18 08:17:04,6.6,-9.93,before,normal,,,,,,,,,,,REGULAR,REGULAR,UP,DOWN,93,104,127
+567,2027-01-18 12:28:00,75,Lunch,2027-01-18 12:42:46,19.4,14.77,after,normal,,,,,,,,,,,No data,GRADUAL,No data,DOWN,187,187,197
+567,2027-01-19 08:30:00,70,Breakfast,,,,,,,,,,,,,,,,REGULAR,REGULAR,UP,DOWN,133,161,236
+567,2027-01-19 19:41:00,140,Dinner,,,,,,,,,,,,,,,,REGULAR,REGULAR,DOWN,DOWN,123,114,189
+567,2027-01-20 19:15:00,75,Dinner,,,,,,,,,,,,,,,,REGULAR,REGULAR,UP,DOWN,97,123,150
+567,2027-01-21 08:19:00,82,Breakfast,,,,,,,,,,,,,,,,REGULAR,REGULAR,UP,DOWN,167,196,211
+567,2027-01-21 13:00:00,85,Lunch,2027-01-21 13:12:49,21.6,12.82,after,normal,,,,,,,,,,,REGULAR,REGULAR,UP,DOWN,110,154,188
+567,2027-01-22 08:35:00,70,Breakfast,,,,,,,,,,,,,,,,REGULAR,REGULAR,STABLE,DOWN,110,110,192
+567,2027-02-09 11:54:00,80,Lunch,2027-02-09 11:53:03,4.55,-0.95,before,normal,,,,,,,,,,,No data,REGULAR,No data,DOWN,148,213,288
+567,2027-02-09 19:00:00,80,Dinner,,,,,,,,,,,,,,,,REGULAR,GRADUAL,DOWN,DOWN,140,128,152
+567,2027-02-10 08:30:00,80,Breakfast,,,,,,,,,,,,,,,,REGULAR,REGULAR,UP,UP,181,284,229

@@ -1,0 +1,42 @@
+query_index,changed_glucose_60min_after_event_from,changed_glucose_60min_after_event_to,changed_features,has_counterfactual,meal_carbs_from,meal_carbs_to,applied_exercise_intensity_from,applied_exercise_intensity_to,applied_bolus_value_from,applied_bolus_value_to,applied_exercise_duration_from,applied_exercise_duration_to,bolus_direction_1_from,bolus_direction_1_to
+0,164.0,120.0,"meal_carbs, applied_exercise_intensity",1,60.0,2.0,0.0,3.4,,,,,,
+0,164.0,128.0,meal_carbs,1,60.0,12.0,,,,,,,,
+0,164.0,164.0,"applied_bolus_value, applied_exercise_intensity",1,,,0.0,3.7,2.2,8.4,,,,
+0,164.0,153.0,"applied_bolus_value, applied_exercise_duration",1,,,,,2.2,9.6,0.0,191.4,,
+0,164.0,164.0,"bolus_direction_1, applied_exercise_intensity",1,,,0.0,3.0,,,,,0.0,1.0
+1,235.0,185.0,"bolus_direction_1, applied_exercise_duration",1,,,,,,,0.0,210.2,1.0,0.0
+1,235.0,188.0,"bolus_direction_1, applied_exercise_duration",1,,,,,,,0.0,201.5,1.0,0.0
+1,235.0,195.0,"bolus_direction_1, applied_exercise_duration",1,,,,,,,0.0,180.0,1.0,0.0
+1,235.0,191.0,applied_exercise_duration,1,,,,,,,0.0,192.1,,
+1,235.0,178.0,"applied_bolus_value, applied_exercise_duration",1,,,,,10.3,6.8,0.0,233.0,,
+2,220.0,193.0,"applied_exercise_intensity, applied_exercise_duration",1,,,0.0,3.7,,,0.0,155.6,,
+2,220.0,199.0,"applied_bolus_value, applied_exercise_duration",1,,,,,9.2,6.8,0.0,134.7,,
+2,220.0,192.0,"meal_carbs, bolus_direction_1",1,60.0,3.0,,,,,,,1.0,0.0
+2,220.0,185.0,"meal_carbs, applied_exercise_duration",1,60.0,25.0,,,,,0.0,143.5,,
+2,220.0,199.0,applied_exercise_duration,1,,,,,,,0.0,133.9,,
+3,204.0,165.0,meal_carbs,1,60.0,2.0,,,,,,,,
+3,204.0,181.0,"meal_carbs, applied_bolus_value",1,60.0,24.0,,,9.2,3.2,,,,
+3,204.0,176.0,applied_exercise_duration,1,,,,,,,0.0,184.0,,
+3,204.0,182.0,meal_carbs,1,60.0,27.0,,,,,,,,
+3,204.0,187.0,"applied_bolus_value, applied_exercise_duration",1,,,,,9.2,4.9,0.0,138.6,,
+4,240.0,199.0,"applied_exercise_intensity, applied_exercise_duration",1,,,0.0,3.7,,,0.0,176.3,,
+4,240.0,179.0,applied_exercise_duration,1,,,,,,,0.0,237.7,,
+4,240.0,184.0,"meal_carbs, applied_exercise_duration",1,60.0,41.0,,,,,0.0,207.8,,
+4,240.0,197.0,"meal_carbs, applied_exercise_duration",1,60.0,29.0,,,,,0.0,156.4,,
+4,240.0,197.0,"meal_carbs, applied_exercise_duration",1,60.0,3.0,,,,,0.0,123.3,,
+5,274.0,191.0,"applied_exercise_intensity, applied_exercise_duration",1,,,0.0,7.2,,,0.0,238.3,,
+5,274.0,198.0,applied_exercise_duration,1,,,,,,,0.0,221.1,,
+5,274.0,192.0,"bolus_direction_1, applied_exercise_duration",1,,,,,,,0.0,237.2,1.0,0.0
+5,274.0,194.0,applied_exercise_duration,1,,,,,,,0.0,231.1,,
+5,274.0,197.0,applied_exercise_duration,1,,,,,,,0.0,224.8,,
+6,240.0,196.0,applied_exercise_duration,1,,,,,,,0.0,183.8,,
+6,240.0,194.0,applied_exercise_duration,1,,,,,,,0.0,189.6,,
+6,240.0,181.0,applied_exercise_duration,1,,,,,,,0.0,231.3,,
+6,240.0,191.0,"applied_bolus_value, applied_exercise_duration",1,,,,,4.5,3.2,0.0,198.5,,
+6,240.0,193.0,applied_exercise_duration,1,,,,,,,0.0,193.8,,
+7,220.0,178.0,"meal_carbs, applied_exercise_duration",1,60.0,59.0,,,,,0.0,209.4,,
+7,220.0,171.0,applied_exercise_duration,1,,,,,,,0.0,236.6,,
+7,220.0,198.0,meal_carbs,1,60.0,15.0,,,,,,,,
+7,220.0,176.0,"applied_bolus_value, applied_exercise_duration",1,,,,,9.2,3.9,0.0,219.0,,
+7,220.0,191.0,"meal_carbs, applied_bolus_value",1,60.0,1.0,,,9.2,8.9,,,,
+SUMMARY,8,8,100.0

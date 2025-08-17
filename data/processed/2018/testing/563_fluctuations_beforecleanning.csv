@@ -1,0 +1,28 @@
+patient_id,meal_time,meal_carbs,meal_type,bolus_time_1,bolus_dose_1,bolus_time_gap_minutes_1,bolus_direction_1,bolus_type_1,bolus_time_2,bolus_dose_2,bolus_time_gap_minutes_2,bolus_direction_2,bolus_type_2,nearest_exercise_time,nearest_exercise_intensity,nearest_exercise_duration,exercise_time_gap_minutes,exercise_direction,pre_fluctuation_category,post_fluctuation_category,pre_fluctuation_direction,post_fluctuation_direction,glucose_30min_before_event,glucose_at_event_time,glucose_60min_after_event,glucose_60min_after_double_bolus
+563,2021-10-29 05:50:00,15,Breakfast,2021-10-29 05:49:42,3.6,-0.3,before,normal,,,,,,,,,,,REGULAR,REGULAR,DOWN,UP,168,139,115,
+563,2021-10-29 20:20:00,63,Dinner,2021-10-29 20:49:26,13.8,29.43,after,normal,,,,,,,,,,,REGULAR,REGULAR,UP,DOWN,130,134,152,
+563,2021-10-30 06:30:00,35,Breakfast,2021-10-30 06:17:27,8.9,-12.55,before,normal,2021-10-30 06:41:30,9.4,11.5,after,normal,,,,,,REGULAR,REGULAR,UP,UP,216,254,249,250.0
+563,2021-10-30 14:15:00,45,Lunch,2021-10-30 14:06:31,11.4,-8.48,before,normal,2021-10-30 14:33:57,2.1,18.95,after,normal,,,,,,REGULAR,REGULAR,UP,DOWN,94,125,178,188.0
+563,2021-10-30 20:08:00,62,Dinner,2021-10-30 20:10:24,12.6,2.4,after,normal,,,,,,,,,,,REGULAR,REGULAR,DOWN,DOWN,153,131,161,
+563,2021-10-31 07:30:00,20,Breakfast,2021-10-31 07:18:45,7.9,-11.25,before,normal,2021-10-31 07:49:21,6.3,19.35,after,normal,,,,,,STEEP,REGULAR,UP,DOWN,172,186,217,189.0
+563,2021-10-31 12:05:00,30,Lunch,2021-10-31 12:10:07,7.2,5.12,after,normal,,,,,,,,,,,STEEP,REGULAR,UP,DOWN,120,123,195,
+563,2021-10-31 17:00:00,62,Dinner,2021-10-31 17:13:58,8.5,13.97,after,normal,,,,,,,,,,,REGULAR,REGULAR,DOWN,DOWN,228,216,262,
+563,2021-11-01 05:50:00,20,Breakfast,2021-11-01 05:46:29,4.2,-3.52,before,normal,,,,,,,,,,,No data,No data,No data,No data,999,999,999,
+563,2021-11-01 11:30:00,10,Lunch,2021-11-01 11:27:08,1.1,-2.87,before,normal,,,,,,,,,,,STEEP,REGULAR,DOWN,DOWN,113,112,221,
+563,2021-11-02 08:04:00,52,Breakfast,2021-11-02 08:13:37,12.7,9.62,after,normal,,,,,,,,,,,REGULAR,REGULAR,UP,DOWN,144,156,188,
+563,2021-11-02 12:00:00,35,Lunch,2021-11-02 12:17:35,12.6,17.58,after,normal,,,,,,,,,,,STEEP,REGULAR,UP,DOWN,185,187,195,
+563,2021-11-02 19:01:00,20,Dinner,2021-11-02 19:31:13,5.8,30.22,after,normal,,,,,,,,,,,REGULAR,REGULAR,DOWN,DOWN,167,136,150,
+563,2021-11-03 11:30:00,12,Lunch,2021-11-03 11:28:01,11.0,-1.98,before,normal,,,,,,,,,,,STEEP,REGULAR,UP,UP,206,225,214,
+563,2021-11-03 17:42:00,15,Breakfast,,,,,,,,,,,,,,,,REGULAR,STEEP,DOWN,UP,177,152,132,
+563,2021-11-03 20:39:00,62,Dinner,2021-11-03 20:03:07,3.9,-35.88,before,normal,2021-11-03 21:18:25,13.1,39.42,after,normal,,,,,,REGULAR,REGULAR,UP,DOWN,164,190,209,160.0
+563,2021-11-04 05:45:00,15,Breakfast,2021-11-04 05:03:51,9.3,-41.15,before,normal,2021-11-04 05:43:45,3.0,-1.25,before,normal,,,,,,REGULAR,STEEP,DOWN,UP,254,232,174,174.0
+563,2021-11-04 12:00:00,67,Lunch,2021-11-04 11:47:00,13.4,-13.0,before,normal,,,,,,,,,,,STEEP,REGULAR,DOWN,DOWN,196,142,188,
+563,2021-11-04 20:35:00,25,Dinner,,,,,,,,,,,,,,,,REGULAR,STEEP,UP,UP,72,116,115,
+563,2021-11-05 05:50:00,56,Breakfast,2021-11-05 06:13:16,13.7,23.27,after,normal,,,,,,,,,,,STEEP,REGULAR,DOWN,UP,171,166,154,
+563,2021-11-05 11:30:00,40,Lunch,2021-11-05 11:27:04,10.2,-2.93,before,normal,,,,,,,,,,,REGULAR,REGULAR,UP,DOWN,70,93,154,
+563,2021-11-05 21:00:00,65,Dinner,2021-11-05 20:46:04,7.5,-13.93,before,normal,2021-11-05 21:00:46,17.1,0.77,after,normal,,,,,,REGULAR,REGULAR,UP,DOWN,182,244,267,271.0
+563,2021-11-06 09:30:00,20,Breakfast,2021-11-06 10:00:56,4.0,30.93,after,normal,,,,,,,,,,,REGULAR,REGULAR,DOWN,DOWN,104,99,124,
+563,2021-11-06 12:20:00,63,Lunch,2021-11-06 12:19:05,11.1,-0.92,before,normal,2021-11-06 12:36:38,8.6,16.63,after,normal,,,,,,REGULAR,REGULAR,UP,DOWN,133,141,163,140.0
+563,2021-11-07 09:00:00,35,Breakfast,2021-11-07 09:09:00,8.4,9.0,after,normal,,,,,,,,,,,No data,No data,No data,No data,999,999,999,
+563,2021-11-07 12:28:00,40,Lunch,2021-11-07 12:05:10,17.1,-22.83,before,normal,,,,,,,,,,,No data,No data,No data,No data,999,999,999,
+563,2021-11-07 18:29:00,65,Dinner,,,,,,,,,,,,,,,,No data,No data,No data,No data,999,999,999,

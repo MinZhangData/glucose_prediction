@@ -1,0 +1,7 @@
+id	acceleration	basal	basis_gsr	basis_skin_temperature	basis_sleep	bolus	bolus_square_count	exercise	finger_stick	glucose_level	hypo_event	meal	sleep	temp_basal	work
+540	7682	8	7682	7682	5	87	5	0	143	2896	0	27	0	55	0
+544	13796	32	13796	13796	14	39	6	2	55	2716	0	38	12	12	5
+552	10382	18	10380	10380	42	102	0	2	46	2364	3	21	8	7	6
+567	9163	14	9163	9163	10	54	0	0	78	2389	0	0	0	9	0
+584	12737	20	12737	12736	12	54	0	0	25	2665	0	23	8	0	3
+596	8643	31	8643	8643	11	38	0	10	32	2743	3	54	10	0	0

@@ -1,0 +1,7 @@
+id	basal	basis_air_temperature	basis_gsr	basis_heart_rate	basis_skin_temperature	basis_sleep	basis_steps	bolus	bolus_square_count	exercise	finger_stick	glucose_level	hypo_event	illness	meal	sleep	temp_basal	work
+559	32	2677	2669	2633	2677	192	2636	36	0	7	37	2514	0	2	29	11	6	5
+563	12	2705	2703	2706	2705	221	2708	89	0	3	109	2570	0	0	27	8	0	4
+570	29	2716	2710	2720	2716	219	2727	84	33	2	65	2745	0	0	33	11	0	4
+575	22	2694	2692	2698	2694	193	2702	36	0	0	53	2590	4	0	45	10	0	6
+588	8	2612	2606	2620	2612	237	2624	40	0	3	92	2791	0	0	37	11	3	6
+591	29	2663	2662	2668	2663	229	2667	51	0	4	83	2760	0	0	41	10	5	0
