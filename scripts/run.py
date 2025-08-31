@@ -14,19 +14,19 @@ def main():
     root_dir = os.path.join(base_dir, "..")  
 
 
-    # patient_id = "559"
-    # training_data_dir = os.path.join(root_dir, "data/raw/OhioT1DM/2018/train/json/")
-    # testing_data_dir = os.path.join(root_dir, "data/raw/OhioT1DM/2018/test/json/")
-    # training_output_dir = os.path.join(root_dir, "data/processed/2018/training")
-    # testing_output_dir = os.path.join(root_dir, "data/processed/2018/testing")
+    patient_id = "570"
+    training_data_dir = os.path.join(root_dir, "data/raw/OhioT1DM/2018/train/json/")
+    testing_data_dir = os.path.join(root_dir, "data/raw/OhioT1DM/2018/test/json/")
+    training_output_dir = os.path.join(root_dir, "data/processed/2018/training")
+    testing_output_dir = os.path.join(root_dir, "data/processed/2018/testing")
 
 
 
-    patient_id = "596"
-    training_data_dir = os.path.join(root_dir, "data/raw/OhioT1DM/2020/train/json/")
-    testing_data_dir = os.path.join(root_dir, "data/raw/OhioT1DM/2020/test/json/")
-    training_output_dir = os.path.join(root_dir, "data/processed/2020/training")
-    testing_output_dir = os.path.join(root_dir, "data/processed/2020/testing")
+    # patient_id = "596"
+    # training_data_dir = os.path.join(root_dir, "data/raw/OhioT1DM/2020/train/json/")
+    # testing_data_dir = os.path.join(root_dir, "data/raw/OhioT1DM/2020/test/json/")
+    # training_output_dir = os.path.join(root_dir, "data/processed/2020/training")
+    # testing_output_dir = os.path.join(root_dir, "data/processed/2020/testing")
 
     training_patient_file = f"{patient_id}-ws-training.json"
     testing_patient_file = f"{patient_id}-ws-testing.json"
